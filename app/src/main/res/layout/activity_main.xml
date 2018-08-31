@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.no0ne.pdfcreator.MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/edit_text_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:hint="Enter your content..." />
+
+
+
+    <Button
+        android:id="@+id/button_create"
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Create PDF" />
+
+    <!--<Button-->
+        <!--android:id="@+id/button_show"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Show PDF" />-->
+
+</LinearLayout>
